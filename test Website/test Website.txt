@@ -1,0 +1,30 @@
+<html dir="ltr" lang="en">
+	
+<head>
+	
+	<meta charset="utf-8">
+	
+	<meta name="viewport" content="width=device-width">
+	
+	<title>My first HTML Page</title>
+	
+</head>
+	
+<body>
+	
+	<h1>Mein Name ist Marcel Mahlfeld</h1>
+	
+	<p>Ich bin 19 Jahre alt
+    <br> Ich habe am 28.06.2001 Geburtstag
+  </p>
+  
+  <h2>Ich arbeite bei der LBS Südwest</h2>
+  
+  <p>Ich studiere im 3. Semester</p>
+	
+  <a href="https://www.google.com/" target="_blank>"Google Startseite aufrufen in einem neuen Fenster</a>
+  
+  
+</body>
+	
+</html>
