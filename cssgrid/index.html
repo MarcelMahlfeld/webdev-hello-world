@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Grids</title>
+    <style>
+        .wrapper{
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /*grid-column-gap: 1em;
+            grid-row-gap: 1em;*/
+            grid-gap:1em;
+        }
+
+        .wrapper > div{
+            background:#eee;
+            padding: 1em;
+        }
+        .wrapper > div:nth-child(odd){
+            background: #ddd;
+        }
+    </style>
+</head> 
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, temporibus? Alias officiis esse nobis quos distinctio nostrum rem nisi. Architecto vel provident fugit officiis atque maxime et optio vero reprehenderit quaerat. Inventore voluptates fugiat explicabo sed rem aliquam vitae laudantium, delectus repellat excepturi ea atque odio laboriosam quidem quis magnam harum facilis dolore ducimus, beatae hic quisquam sint. Ex voluptate officiis, quasi dolore, expedita fugit voluptatibus iure alias similique praesentium corporis libero eligendi nisi repudiandae hic quae. Eaque, aliquam iste.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo facilis aut, eos eum commodi tempore reiciendis eaque. Dicta, rerum! Eveniet voluptates totam necessitatibus quibusdam? Tempora voluptatum quisquam laboriosam asperiores repellat.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, temporibus? Alias officiis esse nobis quos distinctio nostrum rem nisi. Architecto vel provident fugit officiis atque maxime et optio vero reprehenderit quaerat. Inventore voluptates fugiat explicabo sed rem aliquam vitae laudantium, delectus repellat excepturi ea atque odio laboriosam quidem quis magnam harum facilis dolore ducimus, beatae hic quisquam sint. Ex voluptate officiis, quasi dolore, expedita fugit voluptatibus iure alias similique praesentium corporis libero eligendi nisi repudiandae hic quae. Eaque, aliquam iste.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo facilis aut, eos eum commodi tempore reiciendis eaque. Dicta, rerum! Eveniet voluptates totam necessitatibus quibusdam? Tempora voluptatum quisquam laboriosam asperiores repellat.
+        </div>
+        
+    </div>
+</body>   
+</html>
